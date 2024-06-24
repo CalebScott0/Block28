@@ -2,18 +2,14 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import MainSection from "./components/MainSection";
-import { Link } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
       <div id="container">
         <Navbar />
         <MainSection />
-        <footer>
-        <Link to="/">Home</Link>
-        <Link to="/blue">Blue</Link>
-        <Link to="/red">Red</Link>
-        </footer>
+        <Footer />
       </div>
   );
 }
